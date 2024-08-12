@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
+    
+</head>
+<body>
+  
+    <header>
+      <img src="assets/lock-icon.png" class="logo" alt="aqui debe de aparecer una imagen">
+      <h1>Encriptador de texto.</h1>
+    </header>
+
+    <main>
+      <section class="formbox_entrada">
+        <div class="entrada">
+          <textarea class="entrada_texto" type="text" cols="30" rows="20" placeholder="Ingrese un mensaje aqui."></textarea>
+          <p class="info">Solo letras minusculas y sin acentos</p>
+        </div>
+        <div class="botones">
+          <button  class="boton_encriptar boton" onclick="btnEncriptar()">Encriptar</button>
+          <button  class="boton_desencriptar boton" onclick="btnDesencriptar()">Desencriptar</button>
+        </div>
+      </section>
+
+
+      <section class="formbox__salida">
+        <div class="mensaje_salida">
+          <h2>Ningun mensaje detectado.</h2>
+          <img src="assets/lupa.png" class="adorno" alt="">
+          <p class="mensaje_aviso">Ingrese el texto que deseas encriptar o desencriptar.</p>
+          
+        </div>
+
+        <div class="seccion_texto">
+          <div class="seccion_texto_estilos">
+            <p  class="mensaje_encriptado"></p>
+            <button class="boton_copiar boton" onclick="copiar()">Copiar</button>
+          </div>
+        </div>
+
+      </section>
+
+    </main>
+
+
+    <footer class="footer">
+      <p class="footer_content">Desarrollado por Diego Ortiz Martinez</p>
+      <div class="redes">
+        <a class="link" href="https://github.com/Watchvader"> <img src="assets/github-logo.png" alt=""></a>
+        <a class="link" href="https://www.linkedin.com/in/diego-de-jesus-ortiz-martinez-9a2a12308/"> <img src="assets/LinkedIn-Icon.png" alt=""></a>
+        
+      </div>
+    </footer>
+    <script src="encriptar.js"></script>
+</body>
+</html>
+
