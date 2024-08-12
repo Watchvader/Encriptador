@@ -26,7 +26,7 @@ function btnEncriptar(){
 }
 function btnDesencriptar(){
     if (validarTexto()){
-        procesarTexto(encriptar);
+        procesarTexto(desencriptar);
         seccionTexto.style.display = 'block';
         mensajeSalida.style.display = 'none';
     }
