@@ -13,3 +13,4 @@ Este proyecto es un encriptador que que fue desarrollado en HTML, CSS y JavaScri
   - **`i` → `imes`**: La letra 'i' se reemplaza por 'imes'.
   - **`o` → `ober`**: La letra 'o' se reemplaza por 'ober'.
   - **`u` → `ufat`**: La letra 'u' se reemplaza por 'ufat'.
+- Por que no puebas desencriptar este mensaje: hoberlai y senterais bimesenternventernimesdober ai enterstai paigimesnai.
